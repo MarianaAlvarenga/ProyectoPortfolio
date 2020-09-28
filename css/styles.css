@@ -4,6 +4,25 @@
     font-size: 1.3rem;
 
 }
+.menu{
+    background-color: #00A500 !important;
+}
+
+.navbar-dark .navbar-toggler .button:focus .button:focus .collapsed{
+    border-color: #066606 !important;
+    color: #066606 !important;
+}
+
+.navbar{
+    height: 10vh;
+}
+button.navbar-toggler{
+   height: 9vh;
+}
+.navbar-brand{
+    color: #B607A9 ;
+  
+}
 h2::first-letter, li::first-letter, th::first-letter{
     color: #B607A9 ;
 }
@@ -14,15 +33,13 @@ h2::first-letter, li::first-letter, th::first-letter{
 body{
     margin: 0 auto;
     background-size: 90%;
-    background-color: black;
+    background-color: black !important;
     width: 90%;
-    justify-content: center;
+    justify-content: center !important;
     font-family: "Consolas", monospace;
     color: #00A500;
 }
-main{
-    padding: 10%;
-}
+
 li{
     list-style: none;
 }
