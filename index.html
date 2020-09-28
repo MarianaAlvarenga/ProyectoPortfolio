@@ -1,117 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Clase 3</title>
-</head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
 <body>
     <header>
-        <h1>
-            Formularios
-        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Mis Proyectos</a>
+                </li>
+                <li>
+                    <a href="#">Tecnologias</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="comienzo">
+            <h1 class= "animate__animated animate__fadeInLeftBig">Mariana Alvarenga Hiede</h1>
+            <h2 class= "animate__animated animate__fadeInLeftBig">Desarrolladora full-stack</h2>
+            <img class="yo"src="yo.jpg" width="150" height="200" alt="">
+        </div>
     </header>
-    <section>
-        <form action="https://formspree.io/xknqaqzg" method="POST" target="_blank">
-<!--           
-            <label>
-                Nombre: 
-                <input name="nombre" type="text"/>
-            </label>
-            <label>
-                Comentarios:
-                <textarea name=""cols="30" rows="10">
+    <main>
+ 
 
-                </textarea>
-            </label>
-            <input type="button" value="Enviar Datos"/>
-            <input type="reset" value="Resetear">
-            <label>
-                Seleccionar:
-                <select>
-                    <option value="">Uno</option>
-                    <option value="">Dos</option>
-                    <option value="">Tres</option>
-                </select>
-            </label>
---> 
-            <fieldset>
-                <legend>
-                    Datos personales
-                </legend>
-                <label>
-                    Nombre: <input type="text" name="nombre" required=""/>
-                </label>
-                <label>
-                    Apellido: <input type="text" name="apellido"/>
-                </label>
-                <label>
-                    Email: <input type="mail" name="mail" placeholder="xxxxxx@xx.com"/>
-                </label>
-                <label>
-                    Constraseña:
-                    <input type="password" name="password" id="">
-                </label>
-                <br>
-                <label>
-                    Femenino
-                    <input type="radio" name="genero" id="">
-                </label>
-                <label>
-                    Masculino
-                    <input type="radio" name="genero" id="">
-                </label>
-                <label>
-                    Otro
-                    <input type="radio" name="genero" id="">
-                </label>
-                <label>
-                    Opcion1
-                    <input type="checkbox" name="opcion" id="">
-                </label>
-                <label>
-                    Opcion2
-                    <input type="checkbox" name="opcion" id="">
-                </label>
-                <label>
-                    Opcion3
-                    <input type="checkbox" name="opcion" id="">
-                </label>
-                <label>
-                    Cantidad:
-                    <input type="number" name="cantidad" id="">
-                </label>
-                <label>
-                    Fecha de Nacimiento:
-                    <input type="date" name="fecha" id="">
-                </label>
-                <label>
-                    Semana:
-                    <input type="week" name="semana" id="">
-                </label>
-                <label>
-                    Link:
-                    <input type="url" name="link" id="">
-                </label>
-                <label>
-                    Seleccionar Archivo:
-                    <input type="file" name="archivo" id="">
-                </label>
-                <label>
-                    <input max="90" min="5" name="rango" type="range"/>
-                </label>
-                <label>
-                    Hora:
-                    <input name="hora" type="time"/>
-                </label>
-                <label>
-                    Color:
-                    <input type="color" name="color" id="">
-                </label>
-                <input type="submit" value="Enviar Formulario">
+        <section class="tabla">
+            <table>
+                <tr>
+                    <th>Lenguaje</th>
+                    <th>Nivel</th>
+                </tr>
+                <tr>
+                    <td> HTML5</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>GIT</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>Básico</td>
+                </tr>
+            </table>
+        </section>
+        <section class="skills">
+            <h2>
+                Mis skills: 
+            </h2>
+            <ul type="disc">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>PHP</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>MySql</li>
+                <li>SQLServer</li>
+                <li>GIT</li>
+                <li>Diagramas de flujo</li>
+                <li>Diagramas Entidad-Relación</li>
+                <li>Diseño de Bases de Datos</li>
+            </ul>
+        </section>
+        <section class="proyectos">
+            <h2>Lenguajes</h2>
+            <div>
+                <img class="img" src="images/programadorac.jpg" alt="programadorac"/>
+                <img class="img" src="images/programadoracplus.jpg" alt="programadoracplus"/>
+                <img class="img" src="images/programadoracsh.jpg" alt="programadoracsh"/>
+                <img class="img" src="images/programadorahtml.jpg" alt="programadorahtml"/>
+                <img class="img" src="images/programadorajs.png" alt="programadorajs"/>
+                <img class="img" src="images/git.png" alt="git"/>
+            </div>
+        </section>
+        <footer>
+            <div class="saludo">
+                <p>Si querés saber más de mi o charlar sobre algun proyecto en el que creés que podría ayudarte, no dudes en contactarme.
+                    <strong>¡Que tengas buen día!</strong>
+                </p>
+            </div>
+            <hr>
+            <form>
+                <fieldset class="contacto">
+                    <legend>Contacto: </legend>
+                
+                    <label>
+                        Nombre
+                        <input type="text" name="nombre" id=""/>
+                    </label>
+                    <br/>
+                    <label>Comentarios:</label>
+                    <br/>
+                    <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                    
+                </fieldset>
+            </form>
 
-            </fieldset>
-        </form>
-    </section>
+        </footer>
+    </main>
 </body>
 </html>
