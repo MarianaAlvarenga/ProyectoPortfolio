@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Clase 3</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Formularios
+        </h1>
+    </header>
+    <section>
+        <form action="https://formspree.io/xknqaqzg" method="POST" target="_blank">
+<!--           
+            <label>
+                Nombre: 
+                <input name="nombre" type="text"/>
+            </label>
+            <label>
+                Comentarios:
+                <textarea name=""cols="30" rows="10">
+
+                </textarea>
+            </label>
+            <input type="button" value="Enviar Datos"/>
+            <input type="reset" value="Resetear">
+            <label>
+                Seleccionar:
+                <select>
+                    <option value="">Uno</option>
+                    <option value="">Dos</option>
+                    <option value="">Tres</option>
+                </select>
+            </label>
+--> 
+            <fieldset>
+                <legend>
+                    Datos personales
+                </legend>
+                <label>
+                    Nombre: <input type="text" name="nombre" required=""/>
+                </label>
+                <label>
+                    Apellido: <input type="text" name="apellido"/>
+                </label>
+                <label>
+                    Email: <input type="mail" name="mail" placeholder="xxxxxx@xx.com"/>
+                </label>
+                <label>
+                    Constraseña:
+                    <input type="password" name="password" id="">
+                </label>
+                <br>
+                <label>
+                    Femenino
+                    <input type="radio" name="genero" id="">
+                </label>
+                <label>
+                    Masculino
+                    <input type="radio" name="genero" id="">
+                </label>
+                <label>
+                    Otro
+                    <input type="radio" name="genero" id="">
+                </label>
+                <label>
+                    Opcion1
+                    <input type="checkbox" name="opcion" id="">
+                </label>
+                <label>
+                    Opcion2
+                    <input type="checkbox" name="opcion" id="">
+                </label>
+                <label>
+                    Opcion3
+                    <input type="checkbox" name="opcion" id="">
+                </label>
+                <label>
+                    Cantidad:
+                    <input type="number" name="cantidad" id="">
+                </label>
+                <label>
+                    Fecha de Nacimiento:
+                    <input type="date" name="fecha" id="">
+                </label>
+                <label>
+                    Semana:
+                    <input type="week" name="semana" id="">
+                </label>
+                <label>
+                    Link:
+                    <input type="url" name="link" id="">
+                </label>
+                <label>
+                    Seleccionar Archivo:
+                    <input type="file" name="archivo" id="">
+                </label>
+                <label>
+                    <input max="90" min="5" name="rango" type="range"/>
+                </label>
+                <label>
+                    Hora:
+                    <input name="hora" type="time"/>
+                </label>
+                <label>
+                    Color:
+                    <input type="color" name="color" id="">
+                </label>
+                <input type="submit" value="Enviar Formulario">
+
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
