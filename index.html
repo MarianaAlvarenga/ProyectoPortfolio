@@ -5,40 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
-    <linkrel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
     <header>
-        <nav class="navbar menu">
-            <div class="fixed-top">
-                <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="menu p-4 d-flex flex-direction-col">
-                    <a class="navbar-brand" href="#">Inicio</a>
-               
-                    <a class="navbar-brand" href="#">Mis Proyectos</a>
-                        
-                    <a class="navbar-brand" href="#">Tecnologias</a>
-
-                  </div>
-                </div>
-                <nav class="navbar navbar-dark menu">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </nav>
-              </div>
-        </nav>
-
-        <div class="comienzo">
-            <h1 class= "animate__animated animate__fadeInLeftBig">Mariana Alvarenga Hiede</h1>
-            <h2 class= "animate__animated animate__fadeInLeftBig">Desarrolladora full-stack</h2>
-            <img class="yo"src="yo.jpg" width="150" height="200" alt="">
-        </div>
+        <section class="menu">
+            <ul>
+                <li>
+                  <a href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                  <a href="#">Mis Proyectos</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                  </li>
+            </ul>
+        </section>   
+        <section class="comienzo">
+            <h1 class="animate__animated animate__rubberBand">Mariana Alvarenga Hiede</h1>
+            <h2 class= "animate__animated animate__rubberBand">Desarrolladora full-stack</h2>
+            <div class="miImagen">
+                <img class="yo"src="yo.jpg" width="150" height="200" alt="desarrolladora">
+            </div>
+        </section>
     </header>
     <main>
- 
-
         <section class="tabla">
             <table>
                 <tr>
@@ -106,13 +101,13 @@
         </section>
         <section class="proyectos">
             <h2>Lenguajes</h2>
-            <div>
-                <img class="img" src="images/programadorac.jpg" alt="programadorac"/>
-                <img class="img" src="images/programadoracplus.jpg" alt="programadoracplus"/>
-                <img class="img" src="images/programadoracsh.jpg" alt="programadoracsh"/>
-                <img class="img" src="images/programadorahtml.jpg" alt="programadorahtml"/>
-                <img class="img" src="images/programadorajs.png" alt="programadorajs"/>
-                <img class="img" src="images/git.png" alt="git"/>
+            <div class="imagenes">
+                <img class="img flicker-4" src="images/programadorac.jpg" alt="programadorac"/>
+                <img class="img flicker-4" src="images/programadoracplus.jpg" alt="programadoracplus"/>
+                <img class="img flicker-4" src="images/programadoracsh.jpg" alt="programadoracsh"/>
+                <img class="img flicker-4" src="images/programadorahtml.jpg" alt="programadorahtml"/>
+                <img class="img flicker-4" src="images/programadorajs.png" alt="programadorajs"/>
+                <img class="img flicker-4" src="images/git.png" alt="git"/>
             </div>
         </section>
         <footer>
