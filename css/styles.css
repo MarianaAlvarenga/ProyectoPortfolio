@@ -16,45 +16,86 @@
  * ---------------------------------------------- */
 
  @-webkit-keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}@keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}main{
-    background-color: #00C500;
-    border: dotted;
-    border-color: black;
-    padding: 2rem;
+}
+
+html{
+    background-color:  #00C500;
+
 }
 .menu, .comienzo{
     background-color: black;
-    height: 8vh;
+    height: 10vh;
 }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .comienzo{
     color:  #00C500;
     text-align: center;
 }
 .comienzo h1, .comienzo h2{
-    letter-spacing: 1rem;
+    letter-spacing: 0.5rem;
 }
 .yo{
-    width: 10vw;/*Es el 10% del ancho de la pantalla*/
-    height: 30vh;/*Es el 30% del largo de la*/
-    border-radius: 30%;
-    border: 0.26rem dotted black;
+    width: auto;/*Es el 10% del ancho de la pantalla*/
+    height: 20vh;/*Es el 30% del largo de la*/
+    border-radius: 50%;
+}
+.flex-container{
+    margin-top: 15vh;
+    background-color: #00C500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .imagenes img{
-    height: 20vh;
-    width: 20vw;
+    height: 35vh;
+    width: 30vw;
     padding: 1rem;
+    align-items: center;
 }
-ul{
+.skills{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh 2vw 5vh 2vw;
+
 }
-li a{
+
+a{
     color: #AC00AD;
     text-decoration: none;
 }
-li a:hover{
+a:hover{
     text-decoration: none;
     color: #13AC16;
     font-size: 1.2rem;
 }
 /*box-sizing: border-box --> para que en la medida que le doy me incluya los paddings y borders, no crezca la caja*/
+.tabla{
+    color: #AC00AD;
+    margin-top: 30vh;
+    position: relative;
+    left: 5vw;
+}
+
+.lenguajes{
+    height: 70vh;
+    background-color: black;
+    color: #AC00AD;
+    padding: 0.2rem;
+}
+
+fieldset input, fieldset textarea{
+    background-color: black;
+}
+.final{
+    height: 50vh;
+    padding: 10vh 2vw 5vh 2vw;
+    background-color:  #76767D;
+}
