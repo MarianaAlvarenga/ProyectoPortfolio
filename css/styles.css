@@ -18,13 +18,13 @@
  @-webkit-keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}@keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}main{
 }
 
-html{
-    background-color:  #00C500;
+body, main, html{
+    background-image: url(../images/fondo.jpeg);
 
 }
 .menu, .comienzo{
     background-color: black;
-    height: 10vh;
+    height: 20vh;
 }
 
 .menu {
@@ -35,29 +35,48 @@ html{
 }
 
 .comienzo{
-    color:  #00C500;
     text-align: center;
+    font-family: 'Sonsie One', cursive;
+    -webkit-text-stroke: 1px #E9902A;
 }
 .comienzo h1, .comienzo h2{
     letter-spacing: 0.5rem;
+    font-size: 2rem;  
+    background: linear-gradient(darkgreen, DarkSeaGreen);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .yo{
     width: auto;/*Es el 10% del ancho de la pantalla*/
     height: 20vh;/*Es el 30% del largo de la*/
     border-radius: 50%;
+    margin-top: 5vh;
 }
-.flex-container{
-    margin-top: 15vh;
-    background-color: #00C500;
+.flex-container, .naves{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
+
+.naves{
+    margin-top: 15vh;
+}
+.naves img{
+    width: 5vw;
+}
+.imagenes{
+    width: 80vw;
+}
 .imagenes img{
-    height: 35vh;
-    width: 30vw;
+    height: 25vh;
+    width: 20vw;
     padding: 1rem;
-    align-items: center;
+
+}
+.imagenes h2{
+    width: 20vw;
+    color: #00AA00;
 }
 .skills{
     display: flex;
@@ -68,12 +87,12 @@ html{
 }
 
 a{
-    color: #AC00AD;
+    color: #F30001;
     text-decoration: none;
 }
 a:hover{
     text-decoration: none;
-    color: #13AC16;
+    color: white;
     font-size: 1.2rem;
 }
 /*box-sizing: border-box --> para que en la medida que le doy me incluya los paddings y borders, no crezca la caja*/
